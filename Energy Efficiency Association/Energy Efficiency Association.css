@@ -1,0 +1,128 @@
+* {
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: rgb(52, 115, 233);
+}
+
+.logo { 
+    max-width: 20%;
+    justify-content: center;
+
+} 
+
+header {
+    background-color: rgb(52, 115, 233);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 0%;
+    padding: 30px 10%;
+}
+
+/* Nav Bar */
+
+a:link, a:visited{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 5px 5px;
+    padding-left: 5px;
+    text-align: center;
+    text-decoration: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+a:hover, a:active {
+    background-color:  rgb(52, 115, 233); 
+  }
+
+  /* Main Page */
+ 
+article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #ffffff ;
+    padding: auto;
+    Color: rgb(0, 0, 0);
+    text-align: center;
+  }
+
+/* Company Logo */
+
+.Companylogo {
+max-width: 55%;
+
+}
+
+/* Main Text Page */ 
+
+.main {
+    text-align: center;
+    font-size: 20px;
+    padding: 0 40px;
+
+}
+
+.Head1 {
+    font-size: 25px;
+    color: #2F6EB1;
+}
+
+/* Purpose */ 
+
+.purpose  {
+    font-size: 25px;
+    text-align: center;
+    color: #2F6EB1;
+}
+
+.Text {
+    text-align: left;
+    font-size: 20px;
+}
+
+/* Our Purpose */ 
+
+.ourpurpose  {
+    font-size: 25px;
+    text-align: center;
+    color: #2F6EB1;
+}
+
+/* Video */
+
+.iframe {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Our Consrirurion */
+
+.OurConstitution  {
+    font-size: 25px;
+    text-align: center;
+    color: #2F6EB1;
+}
+
+/* Our Aims And Objectives */
+
+.OurAimsAndObjectives {
+    font-size: 25px;
+    text-align: center;
+    color: #2F6EB1;
+}
+
+/* Footer */ 
+
+footer {
+    padding: auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color:rgb(52, 115, 233);
+
+}
